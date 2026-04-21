@@ -6,9 +6,9 @@
 
 @media (max-width: 500px){
     body{
-    background-color: blueviolet;
-    /* background: linear-gradient(270deg, blueviolet, black, purple);
-    background-size: 600% 600%; */
+    /* background-color: blueviolet; */
+    background: linear-gradient(270deg, blueviolet, black, purple);
+    background-size: 600% 600%;
     animation: gradientMove 8s ease infinite;
 }
 /* @keyframes gradientMove {
