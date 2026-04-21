@@ -304,6 +304,7 @@ a:visited{
     /* position: sticky; */
     top: 0px;
     padding: 7px;
+    font-size: 10px;
 }
 .bar_div{
     display: flex;
