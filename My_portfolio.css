@@ -234,15 +234,15 @@ body{
 /* links */
 
 a:link{
-    color: burlywood;
+    color: white;
     text-decoration: none;
 }
 a:hover{
-    color:white;
+    color:rgb(148, 180, 218);
     text-decoration: underline;
 }
 a:visited{
-    color: white;
+    color: burlywood;
 }
 
 /* Animations */
