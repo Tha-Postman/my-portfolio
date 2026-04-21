@@ -362,7 +362,7 @@ a:visited{
 .intro_text1{
     color: white;
     text-align: left;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -376,16 +376,16 @@ a:visited{
 .profile_pic{
     /* position: absolute; */
     /* left: 0; */
-    width: 150px;
+    width: 100px;
     /* max-width: 500px; */
-    height: 150px;
+    height: 100px;
     /* border-image: round; */
     border-radius: 100px;
     border-color: rgb(187, 11, 40);
     box-shadow: 5px 5px 15px 5px rgb(15, 15, 13);
     padding-left: 5px;
     padding-bottom: 5px;
-    margin: 20px 5px 0px 0px;
+    margin: 20px 10px 0px 0px;
 }
 .project_div{
     display: flex;
