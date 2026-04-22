@@ -114,10 +114,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* width: 95%; */
-    height: 250px;
-    background-color: rgb(242, 240, 241);
-    padding: 15px;
+    height: 80vh;
+    background-color: silver;
     margin: 5px;
 }
 .project_text1{
@@ -129,15 +127,15 @@
     text-decoration: none;
     /* margin: 10px 0px 10px 0px; */
     text-decoration: underline blueviolet;
+    margin: 10px;
 }
 .about{
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    background-color: rgb(242, 240, 241);
-    width: 95%;
-    padding: 10px 5px 30px 5px;
-    /* margin: 5px; */
+    align-items: center;
+    background-color: silver;
+    height: 80vh;
+    margin: 5px;
 }
 .about_picture{
     width: 150px;
@@ -159,7 +157,7 @@
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline blueviolet;
-    margin-bottom: 5px;
+    margin: 10px;
 }
 .about_text2{
     color: rgb(0, 0, 0);
@@ -167,14 +165,16 @@
     text-align: center;
     font-weight: 100;
     margin: 10px;
-    padding: 15px;
+    padding: 10px 25px 5px 25px;
 }
 
 .contact{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    background-color: silver;
+    height: 80vh;
+    margin: 5px;
 }
 .contact_text1{
     color: black;
@@ -182,37 +182,43 @@
     font-size: 15px;
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline black;    margin-bottom: 10px;
+    text-decoration: underline black;    margin: 10px;
 }
 .contact_text2{
     color: black;
     text-align: center;
     font-weight: 100;
     font-size: 15px;
+    margin-bottom: 5px;
 }
 .contact_text3{
     font-size: 15px;
     text-align: center;
     font-weight: 700;
     text-decoration: none;
-    margin: 5px;
+    margin: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }
 .c_icon{
-    font-size: 20px;
+    font-size: 40px;
     color: aliceblue;
 }
 .c_icon:hover{
-    color: rgb(0, 0, 0);
-    transition-duration: 0.2s;
+    color: blueviolet;
+    transition-duration: 0.5s;
     transform: scale(1.1);
 }
 .social_div{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    position: static;
+    bottom: 10px;
 }
 .s_icon{
+    font-size: 20px;
+    color: white;
     margin: 10px;
 }
 .float_icon{
