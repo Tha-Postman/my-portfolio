@@ -6,7 +6,7 @@
 
 @media (max-width: 500px){
 body{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     background: linear-gradient(270deg, blueviolet, black, purple);
     background-size: 600% 600%;
     animation: gradientMove 8s ease infinite;
@@ -267,6 +267,11 @@ a:visited{
 /* Tablet view */
 
 @media (max-width: 779px) and (min-width: 501px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: blueviolet;
     background: linear-gradient(270deg, blueviolet, black, purple);
@@ -348,14 +353,14 @@ body{
     background-position: center;
     background-size: 780px;
     width: 100%;
-    height: 500px;
-    margin-top: 0px;
+    height: 100vh;
+    /* margin-top: 0px; */
 }
 .hello{
     font-size: 60px;
 }
 .intro_text_div{
-    margin: 290px 15px ;
+    margin: 350px 15px ;
 }
 .intro_text1{
     color: rgb(196, 162, 228);
@@ -526,10 +531,15 @@ a:visited{
 
 /* Desktop view */
 
-@media (max-width: 1358px) and (min-width: 780px){
-
+@media (max-width: 2600px) and (min-width: 780px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-   background: linear-gradient(270deg, blueviolet, black, purple);
+    /* margin: 0; */
+    background: linear-gradient(270deg, blueviolet, black, purple);
    background-size: 600% 600%;
 }
 .nav_div{
@@ -628,7 +638,9 @@ body{
     cursor: pointer;
 }
 .profile_pic{
+    display: block;
     width: 450px;
+    /* max-width: 100%; */
     height: 450px;
     border-radius: 250px;
     border-color: rgb(187, 11, 40);
@@ -668,7 +680,7 @@ body{
     background-position: center;
     background-size: 750px;
     /* width: 100%; */
-    height: 100vh;
+    height: 750px;
     /* position: relative; */
 }
 .about_picture{
@@ -687,16 +699,17 @@ body{
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline blueviolet;
-    margin-top: 350px;
+    margin-top: 450px;
 }
 .about_text2{
     color: rgb(206, 198, 198);
     text-align: center;
     font-size: 100%;
     font-weight: 100;
-    padding-left: 350px;
-    padding-right: 350px;
-    min-width: 500px;
+    /* padding-left: 350px;
+    padding-right: 350px; */
+    min-width: 200px;
+    max-width: 700px;
     /* max-height: 30px; */
 }
 .contact{
@@ -704,7 +717,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: rgba(0, 0, 0, 0);
-    height: 80vh;
+    height: 100%;
     margin: 5px;
 }
 .contact_text1{
@@ -746,9 +759,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    left: 300px;
+    margin: 50px;
     position: static;
-    bottom: 10px;
-    margin-top: 20px;
+    bottom: 110px;
 }
 .s_icon{
     font-size: 20px;
