@@ -218,9 +218,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: static;
-    bottom: 10px;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 .s_icon{
     font-size: 20px;
@@ -486,9 +487,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: static;
-    bottom: 10px;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 .s_icon{
     font-size: 20px;
@@ -759,10 +761,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    left: 300px;
-    margin: 50px;
-    position: static;
-    bottom: 110px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 .s_icon{
     font-size: 20px;
