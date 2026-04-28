@@ -24,15 +24,16 @@ body{
     flex-direction: row;
     justify-content: space-between;
     /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) */
-    background: linear-gradient(270deg, blueviolet, black, purple);
+    background-color: rgba(0, 0, 0, 0.3);
     background-size: 600% 600%;
-    background-color: transparent;
+    /* background-color: transparent; */
     height: 40px;
-    position: static;
+    position: sticky;
     /* position: sticky; */
     top: 0px;
     padding: 5px;
-    font-size: 10px;
+    font-size: 11px;
+    z-index: 9;
 }
 .bar_div{
     display: flex;
@@ -114,23 +115,25 @@ body{
     display: none;
 }
 .project_div{
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 80vh;
     background-color: rgba(0, 0, 0, 0.1);
-    margin: 5px;
+    margin-top: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .project_img_div{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 .project_img {
-    margin: 20px 2px 2px;
-    width: 180px;
-    height: 100px;
+    margin: 10px 2px 2px;
+    width: 90vw;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
@@ -155,7 +158,9 @@ body{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.1);
     height: 80vh;
-    margin: 5px;
+    margin-top: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .about_picture{
     width: 150px;
@@ -309,15 +314,16 @@ body{
     flex-direction: row;
     justify-content: space-between;
     /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) */
-    background: linear-gradient(270deg, blueviolet, black, purple);
+    background-color: rgba(0, 0, 0, 0.3);
     background-size: 600% 600%;
-    background-color: transparent;
-    height: 40px;
-    position: static;
+    /* background-color: transparent; */
+    height: 50px;
+    position: sticky;
     /* position: sticky; */
     top: 0px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 18px;
+    z-index: 9;
 }
 .bar_div{
     display: flex;
