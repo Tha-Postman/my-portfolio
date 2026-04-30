@@ -119,7 +119,7 @@ body{
     flex-direction: column;
     align-items: center;
     height: 80vh;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     margin-top: 15px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -156,7 +156,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     height: 80vh;
     margin-top: 15px;
     border-top-left-radius: 20px;
@@ -197,7 +197,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0);
     height: 80vh;
     margin: 5px;
 }
@@ -405,11 +404,11 @@ body{
     display: none;
 }
 .project_div{
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     height: 80vh;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     margin: 5px;
 }
 .project_img_div{
@@ -444,7 +443,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     height: 80vh;
     margin: 5px;
 }
@@ -588,12 +587,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* background-color: blueviolet; */
-    height: 40px;
-    position: static;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 60px;
+    position: sticky;
     top: 0px;
     padding: 7px 5px;
     font-size: 20px;
+    z-index: 9;
 }
 .bar_div{
     display: flex;
@@ -693,11 +693,11 @@ body{
 }
 .project_div{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     height: 80vh;
-    background-color: rgba(0, 0, 0, 0.1);
-    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 15px;
 }
 .project_img_div{
     display: flex;
@@ -736,7 +736,7 @@ body{
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover 750px;
+    background-size: 750px;
     /* width: 100%; */
     height: 750px;
     /* position: relative; */
