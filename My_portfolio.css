@@ -804,3 +804,5 @@ button:focus-visible {
         text-align: center;
     }
 }
+
+.top_button{position:fixed;right:1.2rem;bottom:5.2rem;z-index:18;display:grid;width:48px;height:48px;place-items:center;border-width:1px;border-style:solid;border-color:var(--line);border-radius:50%;color:#fff;background:var(--accent);box-shadow:var(--shadow);cursor:pointer;opacity:0;pointer-events:none;transition-property:opacity,background;transition-duration:.18s;transition-timing-function:ease;}.top_button.visible{opacity:1;pointer-events:auto;}.top_button:hover{background:var(--accent-2);}
